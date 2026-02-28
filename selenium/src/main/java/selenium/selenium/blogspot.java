@@ -65,6 +65,7 @@ public class blogspot {
 		 Thread.sleep(2000);
 	 }
 	 
+	 
 	 void pagination_table() throws InterruptedException
      {
     	 driver.findElement(By.xpath("//*[@id='productTable']/tbody/tr[1]/td[4]/input")).click();
@@ -115,7 +116,7 @@ public class blogspot {
     
      void  form() throws InterruptedException
      {
-    	 driver.findElement(By.id("input1")).sendKeys("saurabh");
+    	 driver.findElement(By.id("input1")).sendKeys("yogita");
     	 driver.findElement(By.id("btn1")).click();
     	 System.out.println(" section 1 is display");
     	 driver.findElement(By.name("input2")).sendKeys("vaibhav");
